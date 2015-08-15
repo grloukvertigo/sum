@@ -14,7 +14,6 @@ public class Main {
 		treeSet.add(BA3);
 		
 		Iterator<BankAccount> itr = treeSet.iterator();
-		
 		while(itr.hasNext()) {
 			BankAccount account = itr.next();
 			System.out.println(account.getCode() + ", " + account.getBalance());
